@@ -1,4 +1,4 @@
- { Client } = require('discord-rpc'),
+ { Client }  require('discord-rpc'),
       spotifyWeb = require('./spotify'),
       log = require("fancy-log"),
       events = require('events'),
