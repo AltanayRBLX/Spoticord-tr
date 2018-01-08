@@ -1,0 +1,9 @@
+{
+  "appClientID": "399924614287065088",
+  "imageKeys": {
+    "large": "spotify",
+    "small": "play_button_clean",
+    "smallPaused": "pause_button_clean"
+  },
+  "rpcTransportType": "ipc"
+}
