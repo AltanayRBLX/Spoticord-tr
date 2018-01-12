@@ -1,4 +1,4 @@
- { Client }  require('discord-rpc'),
+const { Client } = require('discord-rpc'),
       spotifyWeb = require('./spotify'),
       log = require("fancy-log"),
       events = require('events'),
@@ -106,7 +106,7 @@ songEmitter.on('newSong', song => {
     instance: false,
   });
 
-  log(`Updated song to: ${song.artist} - ${song.name}`);
+  log(`Muzik Guncellendi.: ${song.artist} - ${song.name} Gosteriliyor.`);
 });
 
 songEmitter.on('songUpdate', song => {
